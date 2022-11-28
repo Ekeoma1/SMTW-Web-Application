@@ -1,4 +1,5 @@
 import React from "react";
+import First  from '../../../assets/images/meas.webp'
 
 const About = () => {
   return (
@@ -25,7 +26,7 @@ const About = () => {
           </div>
           <div className="col-lg-7">
             <div className="d-flex flex-wrap justify-content-center gap-3">
-              <div className="box shadow-sm"></div>
+              <div  className="box shadow-sm"></div>
               <div className="box shadow-sm"></div>
               <div className="box shadow-sm"></div>
             </div>

@@ -1,0 +1,10 @@
+.measure-hero{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.measure-hero-overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+}
