@@ -20,10 +20,18 @@ const userSlice = createSlice({
 
     register:(state)=> {
         state.RegSuccess = true
+    },
+
+    updateUser:(state, action)=> {
+      state.userInfo = action.payload
+    },
+
+    logout:(state)=> {
+      state.LoginSuccess= false
     }
   },
 })
 
-export const {login, register} = userSlice.actions
+export const {login, register, updateUser, logout} = userSlice.actions
 
 export default userSlice.reducer;

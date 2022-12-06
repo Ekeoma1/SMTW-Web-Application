@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import "../assets/css/measurement.css";
 import Meas from "../assets/images/measurement.webp";
 import { Link } from "react-router-dom";
@@ -8,6 +8,9 @@ import Collapse from "@mui/material/Collapse";
 const Measurement = () => {
     const [loading, setLoading]= useState(false);
     const [open, setOpen]= useState(false);
+    useEffect(()=> {
+      window.scrollTo(0,0);
+    },[])
 
     const onBtnClick = () => {
         setLoading(true)

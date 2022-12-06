@@ -52,6 +52,19 @@
   box-sizing: border-box;
 }
 
+.profile-textarea {
+  height: 100px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.profile-textarea::placeholder{
+  color: #000;
+}
+
 .profile-btn{
     height: 40px;
     background-color: #000;

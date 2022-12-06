@@ -1,8 +1,11 @@
-import React from "react";
+import React, {useEffect} from "react";
 import hero from "../../assets/images/category/tailor-store-header.webp";
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 
 const Product = () => {
+  useEffect(()=> {
+    window.scrollTo(0,0);
+  },[])
   return (
     <div>
       <div className="row align-items-center gap-lg-0 gap-3 m-0">

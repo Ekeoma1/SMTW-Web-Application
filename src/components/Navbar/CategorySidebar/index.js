@@ -12,10 +12,10 @@ const CategorySidebar = ({sidebar, toggle}) => {
   const fetchSideBar = async () => {
     try {
       const response = await axios.get("https://localhost:7290/api/categories")
-      console.log(response.data)
+      // console.log(response.data)
       setSideBarItem(response.data)
     } catch (error) {
-      console.log(error)
+      // console.log(error)
       setSidebarErr(error)
     }
   }

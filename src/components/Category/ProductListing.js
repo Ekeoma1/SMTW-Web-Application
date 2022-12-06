@@ -16,12 +16,12 @@ const ProductListing = () => {
                 <div>&#8358;15,000</div>
               </div>
               <div className="d-flex gap-2 align-items-center justify-content-center">
-                <Link className="product-btn" to="#">
+                <Link className="product-btn" to="/product">
                   Customise
                 </Link>
-                <button className="add-to-cart-btn">
+                {/* <button className="add-to-cart-btn">
                   <ShoppingCartIcon />
-                </button>
+                </button> */}
               </div>
             </div>
           </div>
@@ -34,12 +34,12 @@ const ProductListing = () => {
                 <div>&#8358;15,000</div>
               </div>
               <div className="d-flex gap-2 align-items-center justify-content-center">
-                <Link className="product-btn" to="#">
+                <Link className="product-btn" to="/product">
                   Customise
                 </Link>
-                <button className="add-to-cart-btn">
+                {/* <button className="add-to-cart-btn">
                   <ShoppingCartIcon />
-                </button>
+                </button> */}
               </div>
             </div>
           </div>
@@ -52,12 +52,12 @@ const ProductListing = () => {
                 <div>&#8358;15,000</div>
               </div>
               <div className="d-flex gap-2 align-items-center justify-content-center">
-                <Link className="product-btn" to="#">
+                <Link className="product-btn" to="/product">
                   Customise
                 </Link>
-                <button className="add-to-cart-btn">
+                {/* <button className="add-to-cart-btn">
                   <ShoppingCartIcon />
-                </button>
+                </button> */}
               </div>
             </div>
           </div>
@@ -70,12 +70,12 @@ const ProductListing = () => {
                 <div>&#8358;15,000</div>
               </div>
               <div className="d-flex gap-2 align-items-center justify-content-center">
-                <Link className="product-btn" to="#">
+                <Link className="product-btn" to="/product">
                   Customise
                 </Link>
-                <button className="add-to-cart-btn">
+                {/* <button className="add-to-cart-btn">
                   <ShoppingCartIcon />
-                </button>
+                </button> */}
               </div>
             </div>
           </div>
@@ -88,12 +88,12 @@ const ProductListing = () => {
                 <div>&#8358;15,000</div>
               </div>
               <div className="d-flex gap-2 align-items-center justify-content-center">
-                <Link className="product-btn" to="#">
+                <Link className="product-btn" to="/product">
                   Customise
                 </Link>
-                <button className="add-to-cart-btn">
+                {/* <button className="add-to-cart-btn">
                   <ShoppingCartIcon />
-                </button>
+                </button> */}
               </div>
             </div>
           </div>

@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import { Modal } from 'antd';
 
 const Checkout = () => {
@@ -20,6 +20,9 @@ const Checkout = () => {
     const handleCancel = () => {
         setOpen(false);
     };
+    useEffect(()=> {
+      window.scrollTo(0,0);
+    },[])
 
   return (
     <section className="white-text">
